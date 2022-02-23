@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tickets</title>
+</head>
+<body>
+    <div class="container">
+        <div class="modal">
+            <form action="" class="form">
+                <h2 class="form-title"></h2>
+                <label>
+                    <span class="name">Краткое описание</span>
+                    <input name="name" type="text" class="input-name" required>
+                </label>
+                <label>
+                    <span class="description">Подробное описание</span>
+                    <textarea name="description" type="text" class="input-description" required></textarea>
+                </label>
+                <div class="control">
+                    <button type="button" class="cansel add">Отмена</button>
+                    <button type="submit" class="ok add">Ок</button>
+                </div>
+            </form>
+        </div>
+        <div class="add__box">
+            <button class="add__ticket add">Добавить тикет</button>
+        </div>
+        <div class="list-box">
+            <ul class="list">
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
