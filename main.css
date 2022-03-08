@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+.container {
+    margin: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.input-name {
+    width: 100%;
+    padding: 5px;
+}
+
+.input-description {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    padding: 5px;
+}
+
+.form-title {
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.add__box {
+    text-align: end;
+    padding: 15px;
+}
+
+.add {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 0.8em;
+}
+
+.modal {
+    position: fixed;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+}
+
+.active {
+    display: flex;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+    border: 1px solid gray;
+}
+
+.item__control {
+    display: flex;
+    align-items: flex-start;
+}
+
+.item__checkbox {
+    margin-right: 15px;
+    margin-top: 7px;
+}
+
+.item__time {
+    min-width: 130px;
+    font-size: 0.9em;
+    padding: 7px 0;
+}
+
+.item__content {
+    padding: 7px;
+    flex-grow: 1.5;
+}
+
+.item__description {
+    padding-top: 15px;
+}
+
+.item__name {
+    cursor: pointer;
+}
+
+.btn {
+    cursor: pointer;
+}
