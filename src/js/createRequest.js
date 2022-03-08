@@ -1,8 +1,9 @@
 export default function createRequest(method, url, id = null, body = null) {
-  const reqUrl = 'https://https://cursar-heroku.herokuapp.com/';
+  const reqUrl = 'https://cursar-heroku.herokuapp.com/';
 
   return new Promise((resolve, reject) => {
     const xhr = new XMLHttpRequest();
+    console.log()
 
     if (id) {
       xhr.open(method, `${reqUrl}?method=${url}&id=${id}`);
