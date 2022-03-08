@@ -3,7 +3,6 @@ export default function createRequest(method, url, id = null, body = null) {
 
   return new Promise((resolve, reject) => {
     const xhr = new XMLHttpRequest();
-    console.log()
 
     if (id) {
       xhr.open(method, `${reqUrl}?method=${url}&id=${id}`);
